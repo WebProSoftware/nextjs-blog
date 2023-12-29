@@ -12,6 +12,7 @@ export default function Post({postData}) {
             </Head>
             <article>
                 <h1 className={utilsStyles.headingXl}>{postData.title}</h1>
+                <h2>TEST</h2>
                 <div className={utilsStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
